@@ -66,7 +66,7 @@ git clone https://github.com/VYuske/crop-feature-prediction.git
 cd crop-feature-prediction
 ```
 
-### 5. Conclusão
+## 5. Conclusão
 
 A análise conduzida permitiu identificar de maneira objetiva quais atributos possuem maior capacidade de discriminar as classes de cultura no dataset avaliado. Entre todas as variáveis testadas individualmente, a feature K (Potássio) apresentou o melhor desempenho nos experimentos de validação cruzada, indicando que ela contém o sinal mais relevante para a previsão do tipo de cultura quando utilizada isoladamente.
 
