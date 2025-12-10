@@ -1,0 +1,13 @@
+# conda env create -f conda-enviroment.yml
+# conda env update --file conda-enviroment.yml --prune
+
+name: crop-feature-extraction
+channels:
+    - defaults
+    - conda-forge
+dependencies:
+    - python=3.10
+    - git
+    - pip
+    - pip:
+        - -r requirements.txt
